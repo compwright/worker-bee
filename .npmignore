@@ -1,0 +1,6 @@
+.editorconfig
+.travis.yml
+.idea/
+.vscode/
+test/
+coverage/
