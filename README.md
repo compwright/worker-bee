@@ -1,4 +1,4 @@
-# worker-bee
+# @compwright/worker-bee
 
 [![Build Status](https://travis-ci.org/compwright/worker-bee.png?branch=master)](https://travis-ci.org/compwright/worker-bee)
 [![Code Climate](https://codeclimate.com/github/compwright/worker-bee/badges/gpa.svg)](https://codeclimate.com/github/compwright/worker-bee)
@@ -11,7 +11,7 @@ A process wrapper for [Bee-Queue](https://www.npmjs.com/package/bee-queue) worke
 ## Installation
 
 ```
-npm install --save worker-bee
+npm install --save @compwright/worker-bee
 ```
 
 ## Basic Usage
@@ -20,7 +20,7 @@ Single-threaded usage:
 
 ```javascript
 const Queue = require('bee-queue');
-const Worker = require('worker-bee');
+const Worker = require('@compwright/worker-bee');
 
 const queue = new Queue('test-queue');
 
@@ -41,7 +41,7 @@ Bee-Queue supports workers in multiple processes or servers. Here is a multi-pro
 ```javascript
 const throng = require('throng');
 const Queue = require('bee-queue');
-const Worker = require('../lib');
+const Worker = require('@compwright/worker-bee');
 
 function timeout(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -77,11 +77,6 @@ Throng will relay the shutdown signal to each worker process to tell them to gra
 ### `new Worker(queue, [options])`
 
 Returns a new worker instance initialized with the given options.
-
-```js
-const Worker = require('worker-bee');
-new Worker(queue, { shutdownTimeout, stalledCheckInterval, concurrency, logger });
-```
 
 __Options:__
 
