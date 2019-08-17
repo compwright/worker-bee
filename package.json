@@ -59,10 +59,10 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "nyc": "^14.1.1",
     "semistandard": "^13.0.1",
-    "sinon": "^7.3.2"
+    "sinon": "^7.4.1"
   },
   "peerDependencies": {
     "bee-queue": "^1.2.2"
