@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/compwright/worker-bee/badges/gpa.svg)](https://codeclimate.com/github/compwright/worker-bee)
 [![Test Coverage](https://codeclimate.com/github/compwright/worker-bee/badges/coverage.svg)](https://codeclimate.com/github/compwright/worker-bee/coverage)
 [![Dependency Status](https://img.shields.io/david/compwright/worker-bee.svg?style=flat-square)](https://david-dm.org/compwright/worker-bee)
-[![Download Status](https://img.shields.io/npm/dm/worker-bee.svg?style=flat-square)](https://www.npmjs.com/package/worker-bee)
+[![Download Status](https://img.shields.io/npm/dm/@compwright/worker-bee.svg?style=flat-square)](https://www.npmjs.com/package/@compwright/worker-bee)
 
 A process wrapper for [Bee-Queue](https://www.npmjs.com/package/bee-queue) workers.
 
