@@ -1,5 +1,8 @@
 # Change Log
 
+## [v1.0.1](https://github.com/compwright/worker-bee/tree/v1.0.1) (2019-08-17)
+[Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.0...v1.0.1)
+
 ## [v1.0.0](https://github.com/compwright/worker-bee/tree/v1.0.0) (2019-06-27)
 
 
