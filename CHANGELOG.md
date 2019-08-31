@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.2](https://github.com/compwright/worker-bee/tree/v1.0.2) (2019-08-31)
+[Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.1...v1.0.2)
+
+**Merged pull requests:**
+
+- Bump eslint-utils from 1.3.1 to 1.4.2 [\#1](https://github.com/compwright/worker-bee/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.1](https://github.com/compwright/worker-bee/tree/v1.0.1) (2019-08-17)
 [Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.0...v1.0.1)
 
