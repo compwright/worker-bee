@@ -151,7 +151,7 @@ describe('Worker', () => {
       const w = new Worker(mockQueue(), {
         logger: mockLogger()
       });
-      await Promise.all([ w.stop(), w.stop() ]);
+      await Promise.all([w.stop(), w.stop()]);
       sinon.assert.calledOnce(process.exit);
       sinon.assert.calledWith(process.exit, 0);
     });
