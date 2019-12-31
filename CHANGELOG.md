@@ -1,5 +1,12 @@
 # Change Log
 
+## [v1.0.3](https://github.com/compwright/worker-bee/tree/v1.0.3) (2019-12-31)
+[Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.2...v1.0.3)
+
+**Merged pull requests:**
+
+- Bump handlebars from 4.1.2 to 4.5.3 [\#2](https://github.com/compwright/worker-bee/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.0.2](https://github.com/compwright/worker-bee/tree/v1.0.2) (2019-08-31)
 [Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.1...v1.0.2)
 
