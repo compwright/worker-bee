@@ -59,7 +59,7 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "mocha": "^6.2.2",
+    "mocha": "^7.1.1",
     "nyc": "^15.0.0",
     "semistandard": "^14.2.0",
     "sinon": "^8.0.2"
