@@ -25,7 +25,7 @@
     "url": "https://github.com/compwright/worker-bee/issues"
   },
   "engines": {
-    "node": ">= 8.0.0"
+    "node": ">= 10"
   },
   "scripts": {
     "publish": "git push origin --tags && npm run changelog && git push origin",
@@ -35,7 +35,7 @@
     "release:major": "npm version major && npm publish",
     "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
     "lint": "semistandard lib/*.js lib/**/*.js test/*.js test/**/*.js --fix",
-    "mocha": "mocha --opts mocha.opts",
+    "mocha": "mocha --recursive test/",
     "coverage": "nyc npm run mocha",
     "test": "npm run lint && npm run coverage"
   },
@@ -59,10 +59,10 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "mocha": "^7.1.1",
-    "nyc": "^15.0.0",
-    "semistandard": "^14.2.0",
-    "sinon": "^8.0.2"
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "semistandard": "^16.0.0",
+    "sinon": "^9.2.2"
   },
   "peerDependencies": {
     "bee-queue": "^1.2.2"
