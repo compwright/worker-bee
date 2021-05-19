@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.1.1](https://github.com/compwright/worker-bee/tree/v1.1.1) (2021-05-19)
+
+[Full Changelog](https://github.com/compwright/worker-bee/compare/v1.1.0...v1.1.1)
+
+**Merged pull requests:**
+
+- Bump hosted-git-info from 2.8.8 to 2.8.9 [\#6](https://github.com/compwright/worker-bee/pull/6) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump lodash from 4.17.20 to 4.17.21 [\#5](https://github.com/compwright/worker-bee/pull/5) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v1.1.0](https://github.com/compwright/worker-bee/tree/v1.1.0) (2020-12-16)
 
 [Full Changelog](https://github.com/compwright/worker-bee/compare/v1.0.4...v1.1.0)
