@@ -59,15 +59,19 @@
     "lib": "lib"
   },
   "devDependencies": {
-    "mocha": "^8.2.1",
+    "mocha": "^8.4.0",
     "nyc": "^15.1.0",
-    "semistandard": "^16.0.0",
-    "sinon": "^9.2.2"
+    "semistandard": "*",
+    "sinon": "^9.2.2",
+    "throng": "^5.0.0"
   },
   "peerDependencies": {
-    "bee-queue": "^1.2.2"
+    "bee-queue": "^1.4.0"
   },
   "optionalDependencies": {
-    "throng": "^4.0.0"
+    "throng": "^5.0.0"
+  },
+  "dependencies": {
+    "throng": "^5.0.0"
   }
 }
